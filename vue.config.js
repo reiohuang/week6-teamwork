@@ -1,5 +1,3 @@
 module.exports = {
-  publicPath: ''
-    ? '/week6-teamwork/dist/'
-    : '/'
+  publicPath: '/week6-teamwork/dist/'
 }
