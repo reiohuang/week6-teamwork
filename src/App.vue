@@ -18,12 +18,13 @@ export default {
     }
   },
   mounted () {
-    // 畫面準備完打開
-    this.isLoading = true
-    // 2秒後關閉
-    setTimeout(() => {
-      this.isLoading = false
-    }, 2000)
+    // // 畫面準備完打開
+    // this.isLoading = true
+    // // 2秒後關閉
+    // setTimeout(() => {
+    //   this.isLoading = false
+    // }, 2000)
+    this.$http.get('')
   }
 }
 </script>
